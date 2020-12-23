@@ -1,2 +1,2 @@
 # api.gateway
-Simple API gateway with other two API's fake.
+An API gateway with other two API's fake.
