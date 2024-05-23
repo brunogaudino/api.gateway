@@ -8,7 +8,12 @@ const helmet = require('helmet');
  
 const userServiceProxy = httpProxy('http://localhost:3001');
 const productsServiceProxy = httpProxy('http://localhost:3002');
- 
+
+app.get('/', (req, res, next) => {
+  res.send('Gateway Root page');
+  console.info('Gateway root');
+})
+
 // Proxy request
 app.get('/users', (req, res, next) => {
   console.info('Gateway users');
