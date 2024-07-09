@@ -1,0 +1,8 @@
+-Add Helmet configuration;
+-Add cookie-parser;
+-Add logger;
+
+Examples:
+https://www.luiztools.com.br/post/api-gateway-em-arquitetura-de-microservices-com-node-js/
+
+https://medium.com/caquicoders/criando-um-simples-api-gateway-com-nodejs-e-express-2ec5369e975d
